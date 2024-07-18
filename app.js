@@ -55,6 +55,7 @@ function takeCommand(message) {
         speak("Opening Youtube...");
         } else if (message.includes("sex vedio")) {
         window.open("https://okxxx2.com/", "_blank");
+        speak("open...");
     } else if (message.includes("open facebook")) {
         window.open("https://facebook.com", "_blank");
         speak("Opening Facebook...");

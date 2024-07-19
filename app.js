@@ -52,10 +52,7 @@ function takeCommand(message) {
         speak("Opening Google...");
     } else if (message.includes("open youtube")) {
         window.open("https://youtube.com", "_blank");
-        speak("Opening Youtube...");
-        } else if (message.includes("sex vedio")) {
-        window.open("https://okxxx2.com/", "_blank");
-        speak("open...");
+        speak("Opening Youtube...")
     } else if (message.includes("open facebook")) {
         window.open("https://facebook.com", "_blank");
         speak("Opening Facebook...");
